@@ -4,7 +4,7 @@
     <h2>Please make your choice!</h2>
 
     <h3>{{ question }}</h3>
-
+    
     <!-- v-bind sets radio buttons value -->
     <input type="radio" v-model="choice" v-bind:value="answer1" v-on:change="choiceMade"> 
     <label>{{ answer1 }}</label>
